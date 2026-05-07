@@ -67,5 +67,7 @@ public class airbnbHomePage {
         By byTime = By.xpath("//p[contains(.,'6.5')]");
         chromeDriver.findElement(byTime);
 
+        chromeDriver.quit();
+
     }
 }

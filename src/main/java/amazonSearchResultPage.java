@@ -57,6 +57,6 @@ public class amazonSearchResultPage {
         By byResults = By.xpath("//span[contains(text(),'results')]");
         chromeDriver.findElement(byResults);
 
-        //14.
+        chromeDriver.quit();
     }
 }
